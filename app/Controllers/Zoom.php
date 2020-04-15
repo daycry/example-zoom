@@ -40,7 +40,7 @@ class Zoom extends BaseController
 
 			if( !empty( $response ) )
 			{
-                write_file( $this->tokenPath, $reponse );
+                write_file( $this->tokenPath, $response );
             }
             
 		}catch ( \League\OAuth2\Client\Provider\Exception\IdentityProviderException $e )
