@@ -4,67 +4,67 @@ class Zoom extends BaseController
 {
     private $tokenPath = __DIR__ . DIRECTORY_SEPARATOR . 'token.json';
 
-	public function authentication()
-	{
+    public function authentication()
+    {
         try
         {
             $zoom = new \Daycry\Zoom\Zoom();
             $token = $zoom->authentication();
         
             if( !empty( $token ) )
-			{
-				write_file( $this->tokenPath, json_encode( $token ) );
-			}
+            {
+                write_file( $this->tokenPath, json_encode( $token ) );
+            }
 
         } catch ( \League\OAuth2\Client\Provider\Exception\IdentityProviderException $e )
         {
             die( $e->getMessage() );
     
         }catch ( \Daycry\Zoom\Exceptions\ExceptionInterface $e)
-		{
+        {
             die( $e->getMessage() );
         }
-	}
+    }
 
-	public function refresh()
-	{
-		try
-		{
-			$content = file_get_contents( $this->tokenPath );
-			$token = json_decode( $content, true );
-			
-			$zoom = new \Daycry\Zoom\Zoom();
-			$zoom->setAccessToken( $token );
+    public function refresh()
+    {
+        try
+        {
+            $content = file_get_contents( $this->tokenPath );
+            $token = json_decode( $content, true );
+            
+            $zoom = new \Daycry\Zoom\Zoom();
+            $zoom->setAccessToken( $token );
 
-			$response = $zoom->refreshAccessToken();
+            $response = $zoom->refreshAccessToken();
 
-			if( !empty( $response ) )
-			{
-                write_file( $this->tokenPath, $response );
+            if( !empty( $response ) )
+            {
+                write_file( $this->tokenPath, json_encode( $response ) );
             }
             
-		}catch ( \League\OAuth2\Client\Provider\Exception\IdentityProviderException $e )
-		{
+        }catch ( \League\OAuth2\Client\Provider\Exception\IdentityProviderException $e )
+        {
             die( $e->getMessage() );
             
-		}catch( \Daycry\Zoom\Exceptions\ZoomException $e )
+        }catch( \Daycry\Zoom\Exceptions\ZoomException $e )
         {
             die( $e->getMessage() );
         }
     }
     
     public function getMeetingsForEmpty()
-	{
-		try
+    {
+        try
         {
             $this->refresh();
             $content = file_get_contents( $this->tokenPath );
-			$token = json_decode( $content, true );
-			
-			$zoom = new \Daycry\Zoom\Zoom();
-			$zoom->setAccessToken( $token );
+            $token = json_decode( $content, true );
+            
+            $zoom = new \Daycry\Zoom\Zoom();
+            $zoom->setAccessToken( $token );
 
-			$response = $zoom->request( 'GET', 'users/{userId}/meetings?type=live' );
+            $response = $zoom->request( 'GET', 'users/jmano@mediapro.tv/meetings?type=live' );
 
             if( $response )
             {
@@ -91,28 +91,28 @@ class Zoom extends BaseController
                 }
             }
 
-		}catch ( \League\OAuth2\Client\Provider\Exception\IdentityProviderException $e )
-		{
+        }catch ( \League\OAuth2\Client\Provider\Exception\IdentityProviderException $e )
+        {
             die( $e->getMessage() );
             
-        }catch( \Daycry\Zoom\Exceptions\ZoomException $e )
+        }catch( Daycry\Zoom\Exceptions\ZoomException $e )
         {
             die( $e->getMessage() );
         }
     }
 
     public function getMeetingsForEnable()
-	{
-		try
+    {
+        try
         {
             $this->refresh();
             $content = file_get_contents( $this->tokenPath );
-			$token = json_decode( $content, true );
-			
-			$zoom = new \Daycry\Zoom\Zoom();
-			$zoom->setAccessToken( $token );
+            $token = json_decode( $content, true );
+            
+            $zoom = new \Daycry\Zoom\Zoom();
+            $zoom->setAccessToken( $token );
 
-			$response = $zoom->request( 'GET', 'users/{userId}/meetings?type=upcoming' );
+            $response = $zoom->request( 'GET', 'users/jmano@mediapro.tv/meetings?type=upcoming' );
 
             if( $response )
             {
@@ -132,14 +132,14 @@ class Zoom extends BaseController
                 }
             }
 
-		}catch ( \League\OAuth2\Client\Provider\Exception\IdentityProviderException $e )
-		{
+        }catch ( \League\OAuth2\Client\Provider\Exception\IdentityProviderException $e )
+        {
             die( $e->getMessage() );
             
         }catch( \Daycry\Zoom\Exceptions\ZoomException $e )
         {
             die( $e->getMessage() );
         }
-	}
-	//--------------------------------------------------------------------
+    }
+    //--------------------------------------------------------------------
 }
