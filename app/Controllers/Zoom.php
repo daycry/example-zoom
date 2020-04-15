@@ -95,7 +95,7 @@ class Zoom extends BaseController
 		{
             die( $e->getMessage() );
             
-        }catch( Daycry\Zoom\Exceptions\ZoomException $e )
+        }catch( \Daycry\Zoom\Exceptions\ZoomException $e )
         {
             die( $e->getMessage() );
         }
