@@ -64,7 +64,7 @@ class Zoom extends BaseController
 			$zoom = new \Daycry\Zoom\Zoom();
 			$zoom->setAccessToken( $token );
 
-			$response = $zoom->request( 'GET', 'users/jmano@mediapro.tv/meetings?type=live' );
+			$response = $zoom->request( 'GET', 'users/{userId}/meetings?type=live' );
 
             if( $response )
             {
@@ -112,7 +112,7 @@ class Zoom extends BaseController
 			$zoom = new \Daycry\Zoom\Zoom();
 			$zoom->setAccessToken( $token );
 
-			$response = $zoom->request( 'GET', 'users/jmano@mediapro.tv/meetings?type=upcoming' );
+			$response = $zoom->request( 'GET', 'users/{userId}/meetings?type=upcoming' );
 
             if( $response )
             {
