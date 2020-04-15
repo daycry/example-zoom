@@ -1,0 +1,84 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Menu
+ *
+ * @ORM\Table(name="menu", indexes={@ORM\Index(name="orden", columns={"position"}), @ORM\Index(name="parent", columns={"parent"})})
+ * @ORM\Entity
+ */
+class Menu
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=50, nullable=false)
+     */
+    private $name;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="interface", type="string", length=50, nullable=true)
+     */
+    private $interface;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="url", type="string", length=50, nullable=true)
+     */
+    private $url;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="position", type="integer", nullable=false)
+     */
+    private $position;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="icon", type="string", length=50, nullable=true)
+     */
+    private $icon;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="in_menu", type="boolean", nullable=false, options={"default"="1"})
+     */
+    private $inMenu = true;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="active", type="boolean", nullable=false, options={"default"="1"})
+     */
+    private $active = true;
+
+    /**
+     * @var \App\Models\Entity\Menu
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\Menu")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="parent", referencedColumnName="id")
+     * })
+     */
+    private $parent;
+
+
+}

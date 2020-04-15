@@ -1,0 +1,98 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * AutomatonJob
+ *
+ * @ORM\Table(name="automaton_job", indexes={@ORM\Index(name="active", columns={"active"}), @ORM\Index(name="queue_id", columns={"queue_id"})})
+ * @ORM\Entity
+ */
+class AutomatonJob
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=50, nullable=false)
+     */
+    private $name;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="action", type="string", length=50, nullable=false)
+     */
+    private $action;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="method", type="string", length=50, nullable=false)
+     */
+    private $method;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="description", type="string", length=255, nullable=false)
+     */
+    private $description;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="icon", type="string", length=50, nullable=false)
+     */
+    private $icon;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="ttr", type="integer", nullable=false)
+     */
+    private $ttr;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="priority", type="integer", nullable=false)
+     */
+    private $priority;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="is_social", type="boolean", nullable=false)
+     */
+    private $isSocial;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="active", type="boolean", nullable=false)
+     */
+    private $active;
+
+    /**
+     * @var \App\Models\Entity\AutomatonQueue
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\AutomatonQueue")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="queue_id", referencedColumnName="id")
+     * })
+     */
+    private $queue;
+
+
+}

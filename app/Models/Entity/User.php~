@@ -1,0 +1,95 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * User
+ *
+ * @ORM\Table(name="user", uniqueConstraints={@ORM\UniqueConstraint(name="email", columns={"email"})}, indexes={@ORM\Index(name="date_remove", columns={"date_remove"}), @ORM\Index(name="affiliate", columns={"affiliate"}), @ORM\Index(name="activation_token", columns={"activation_token", "recovery_token"}), @ORM\Index(name="active", columns={"active"})})
+ * @ORM\Entity
+ */
+class User
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="email", type="string", length=100, nullable=false)
+     */
+    private $email;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="password", type="string", length=255, nullable=false)
+     */
+    private $password;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="tfa_token", type="string", length=255, nullable=true)
+     */
+    private $tfaToken;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="activation_token", type="string", length=40, nullable=true)
+     */
+    private $activationToken;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="recovery_token", type="string", length=40, nullable=true)
+     */
+    private $recoveryToken;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="affiliate", type="string", length=50, nullable=false)
+     */
+    private $affiliate;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_created", type="datetime", nullable=false, options={"default"="CURRENT_TIMESTAMP"})
+     */
+    private $dateCreated = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var \DateTime|null
+     *
+     * @ORM\Column(name="last_login", type="datetime", nullable=true)
+     */
+    private $lastLogin;
+
+    /**
+     * @var \DateTime|null
+     *
+     * @ORM\Column(name="date_remove", type="datetime", nullable=true)
+     */
+    private $dateRemove;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="active", type="boolean", nullable=false)
+     */
+    private $active = '0';
+
+
+}

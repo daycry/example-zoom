@@ -1,0 +1,14 @@
+CRITICAL - 2020-04-13 10:46:29 --> array_merge(): Expected parameter 1 to be an array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\vendors\daycry\twig\src\Twig.php(88): array_merge('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\vendors\daycry\twig\src\Config\Services.php(17): Daycry\Twig\Twig->__construct(Object(Config\Twig))
+#3 C:\xampp\htdocs\protectyourdata\system\Config\BaseService.php(123): Daycry\Twig\Config\Services::twig(false)
+#4 C:\xampp\htdocs\vendors\daycry\twig\src\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('twig')
+#5 C:\xampp\htdocs\protectyourdata\system\Config\BaseService.php(294): Daycry\Twig\Config\Services::twig()
+#6 C:\xampp\htdocs\protectyourdata\system\Config\BaseService.php(202): CodeIgniter\Config\BaseService::discoverServices('twig', Array)
+#7 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(19): CodeIgniter\Config\BaseService::__callStatic('twig', Array)
+#8 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->twig_template()
+#9 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}

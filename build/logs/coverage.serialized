@@ -1,0 +1,6651 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetworkNotification.php' => 
+  array (
+    64 => 
+    array (
+    ),
+    65 => NULL,
+    76 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => NULL,
+    88 => 
+    array (
+    ),
+    89 => NULL,
+    100 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => NULL,
+    112 => 
+    array (
+    ),
+    113 => NULL,
+    124 => 
+    array (
+    ),
+    126 => 
+    array (
+    ),
+    127 => NULL,
+    136 => 
+    array (
+    ),
+    137 => NULL,
+    148 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    151 => NULL,
+    160 => 
+    array (
+    ),
+    161 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetworkTask.php' => 
+  array (
+    95 => 
+    array (
+    ),
+    96 => NULL,
+    107 => 
+    array (
+    ),
+    109 => 
+    array (
+    ),
+    110 => NULL,
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    131 => 
+    array (
+    ),
+    133 => 
+    array (
+    ),
+    134 => NULL,
+    143 => 
+    array (
+    ),
+    144 => NULL,
+    155 => 
+    array (
+    ),
+    157 => 
+    array (
+    ),
+    158 => NULL,
+    167 => 
+    array (
+    ),
+    168 => NULL,
+    179 => 
+    array (
+    ),
+    181 => 
+    array (
+    ),
+    182 => NULL,
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    203 => 
+    array (
+    ),
+    205 => 
+    array (
+    ),
+    206 => NULL,
+    215 => 
+    array (
+    ),
+    216 => NULL,
+    227 => 
+    array (
+    ),
+    229 => 
+    array (
+    ),
+    230 => NULL,
+    239 => 
+    array (
+    ),
+    240 => NULL,
+    251 => 
+    array (
+    ),
+    253 => 
+    array (
+    ),
+    254 => NULL,
+    263 => 
+    array (
+    ),
+    264 => NULL,
+    275 => 
+    array (
+    ),
+    277 => 
+    array (
+    ),
+    278 => NULL,
+    287 => 
+    array (
+    ),
+    288 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityConfig.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Autoload.php' => 
+  array (
+    29 => 
+    array (
+      0 => 'TwigTest::testLoadTwig',
+      1 => 'TwigTest::testAddGlobal',
+    ),
+    53 => 
+    array (
+      0 => 'TwigTest::testLoadTwig',
+      1 => 'TwigTest::testAddGlobal',
+    ),
+    54 => 
+    array (
+      0 => 'TwigTest::testLoadTwig',
+      1 => 'TwigTest::testAddGlobal',
+    ),
+    55 => 
+    array (
+      0 => 'TwigTest::testLoadTwig',
+      1 => 'TwigTest::testAddGlobal',
+    ),
+    74 => 
+    array (
+      0 => 'TwigTest::testLoadTwig',
+      1 => 'TwigTest::testAddGlobal',
+    ),
+    80 => 
+    array (
+      0 => 'TwigTest::testLoadTwig',
+      1 => 'TwigTest::testAddGlobal',
+    ),
+    81 => 
+    array (
+      0 => 'TwigTest::testLoadTwig',
+      1 => 'TwigTest::testAddGlobal',
+    ),
+    83 => 
+    array (
+      0 => 'TwigTest::testLoadTwig',
+      1 => 'TwigTest::testAddGlobal',
+    ),
+    84 => 
+    array (
+      0 => 'TwigTest::testLoadTwig',
+      1 => 'TwigTest::testAddGlobal',
+    ),
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Modules.php' => 
+  array (
+    58 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    66 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Boot\\production.php' => 
+  array (
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Toolbar.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserPayments.php' => 
+  array (
+    102 => 
+    array (
+    ),
+    103 => NULL,
+    114 => 
+    array (
+    ),
+    116 => 
+    array (
+    ),
+    117 => NULL,
+    126 => 
+    array (
+    ),
+    127 => NULL,
+    138 => 
+    array (
+    ),
+    140 => 
+    array (
+    ),
+    141 => NULL,
+    150 => 
+    array (
+    ),
+    151 => NULL,
+    162 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    174 => 
+    array (
+    ),
+    175 => NULL,
+    186 => 
+    array (
+    ),
+    188 => 
+    array (
+    ),
+    189 => NULL,
+    198 => 
+    array (
+    ),
+    199 => NULL,
+    210 => 
+    array (
+    ),
+    212 => 
+    array (
+    ),
+    213 => NULL,
+    222 => 
+    array (
+    ),
+    223 => NULL,
+    234 => 
+    array (
+    ),
+    236 => 
+    array (
+    ),
+    237 => NULL,
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    258 => 
+    array (
+    ),
+    260 => 
+    array (
+    ),
+    261 => NULL,
+    270 => 
+    array (
+    ),
+    271 => NULL,
+    282 => 
+    array (
+    ),
+    284 => 
+    array (
+    ),
+    285 => NULL,
+    294 => 
+    array (
+    ),
+    295 => NULL,
+    306 => 
+    array (
+    ),
+    308 => 
+    array (
+    ),
+    309 => NULL,
+    318 => 
+    array (
+    ),
+    319 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Controllers\\Home.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    15 => NULL,
+    19 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    45 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\Crypter.php' => 
+  array (
+    61 => 
+    array (
+    ),
+    62 => NULL,
+    73 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    76 => NULL,
+    85 => 
+    array (
+    ),
+    86 => NULL,
+    97 => 
+    array (
+    ),
+    99 => 
+    array (
+    ),
+    100 => NULL,
+    109 => 
+    array (
+    ),
+    110 => NULL,
+    121 => 
+    array (
+    ),
+    123 => 
+    array (
+    ),
+    124 => NULL,
+    133 => 
+    array (
+    ),
+    134 => NULL,
+    145 => 
+    array (
+    ),
+    147 => 
+    array (
+    ),
+    148 => NULL,
+    157 => 
+    array (
+    ),
+    158 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserTrackingSocialNetwork.php' => 
+  array (
+    88 => 
+    array (
+    ),
+    89 => NULL,
+    100 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => NULL,
+    112 => 
+    array (
+    ),
+    113 => NULL,
+    124 => 
+    array (
+    ),
+    126 => 
+    array (
+    ),
+    127 => NULL,
+    136 => 
+    array (
+    ),
+    137 => NULL,
+    148 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    151 => NULL,
+    160 => 
+    array (
+    ),
+    161 => NULL,
+    172 => 
+    array (
+    ),
+    174 => 
+    array (
+    ),
+    175 => NULL,
+    184 => 
+    array (
+    ),
+    185 => NULL,
+    196 => 
+    array (
+    ),
+    198 => 
+    array (
+    ),
+    199 => NULL,
+    208 => 
+    array (
+    ),
+    209 => NULL,
+    220 => 
+    array (
+    ),
+    222 => 
+    array (
+    ),
+    223 => NULL,
+    232 => 
+    array (
+    ),
+    233 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    256 => 
+    array (
+    ),
+    257 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserKeyword.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetworkHistorical.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Validation.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Cache.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Doctrine.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Email.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Controllers\\BaseController.php' => 
+  array (
+    37 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Twig.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\View.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserAffiliate.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Encryption.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserTracking.php' => 
+  array (
+    64 => 
+    array (
+    ),
+    65 => NULL,
+    76 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => NULL,
+    88 => 
+    array (
+    ),
+    89 => NULL,
+    100 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => NULL,
+    112 => 
+    array (
+    ),
+    113 => NULL,
+    124 => 
+    array (
+    ),
+    126 => 
+    array (
+    ),
+    127 => NULL,
+    136 => 
+    array (
+    ),
+    137 => NULL,
+    148 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    151 => NULL,
+    160 => 
+    array (
+    ),
+    161 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserKeywordSocialNetwork.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+    288 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => NULL,
+    299 => 
+    array (
+    ),
+    301 => 
+    array (
+    ),
+    302 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    321 => 
+    array (
+    ),
+    323 => 
+    array (
+    ),
+    324 => NULL,
+    332 => 
+    array (
+    ),
+    334 => 
+    array (
+    ),
+    335 => NULL,
+    343 => 
+    array (
+    ),
+    345 => 
+    array (
+    ),
+    346 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\AutomatonJob.php' => 
+  array (
+    106 => 
+    array (
+    ),
+    107 => NULL,
+    118 => 
+    array (
+    ),
+    120 => 
+    array (
+    ),
+    121 => NULL,
+    130 => 
+    array (
+    ),
+    131 => NULL,
+    142 => 
+    array (
+    ),
+    144 => 
+    array (
+    ),
+    145 => NULL,
+    154 => 
+    array (
+    ),
+    155 => NULL,
+    166 => 
+    array (
+    ),
+    168 => 
+    array (
+    ),
+    169 => NULL,
+    178 => 
+    array (
+    ),
+    179 => NULL,
+    190 => 
+    array (
+    ),
+    192 => 
+    array (
+    ),
+    193 => NULL,
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    214 => 
+    array (
+    ),
+    216 => 
+    array (
+    ),
+    217 => NULL,
+    226 => 
+    array (
+    ),
+    227 => NULL,
+    238 => 
+    array (
+    ),
+    240 => 
+    array (
+    ),
+    241 => NULL,
+    250 => 
+    array (
+    ),
+    251 => NULL,
+    262 => 
+    array (
+    ),
+    264 => 
+    array (
+    ),
+    265 => NULL,
+    274 => 
+    array (
+    ),
+    275 => NULL,
+    286 => 
+    array (
+    ),
+    288 => 
+    array (
+    ),
+    289 => NULL,
+    298 => 
+    array (
+    ),
+    299 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    322 => 
+    array (
+    ),
+    323 => NULL,
+    334 => 
+    array (
+    ),
+    336 => 
+    array (
+    ),
+    337 => NULL,
+    346 => 
+    array (
+    ),
+    347 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\User.php' => 
+  array (
+    103 => 
+    array (
+    ),
+    104 => NULL,
+    115 => 
+    array (
+    ),
+    117 => 
+    array (
+    ),
+    118 => NULL,
+    127 => 
+    array (
+    ),
+    128 => NULL,
+    139 => 
+    array (
+    ),
+    141 => 
+    array (
+    ),
+    142 => NULL,
+    151 => 
+    array (
+    ),
+    152 => NULL,
+    163 => 
+    array (
+    ),
+    165 => 
+    array (
+    ),
+    166 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    187 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    190 => NULL,
+    199 => 
+    array (
+    ),
+    200 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    223 => 
+    array (
+    ),
+    224 => NULL,
+    235 => 
+    array (
+    ),
+    237 => 
+    array (
+    ),
+    238 => NULL,
+    247 => 
+    array (
+    ),
+    248 => NULL,
+    259 => 
+    array (
+    ),
+    261 => 
+    array (
+    ),
+    262 => NULL,
+    271 => 
+    array (
+    ),
+    272 => NULL,
+    283 => 
+    array (
+    ),
+    285 => 
+    array (
+    ),
+    286 => NULL,
+    295 => 
+    array (
+    ),
+    296 => NULL,
+    307 => 
+    array (
+    ),
+    309 => 
+    array (
+    ),
+    310 => NULL,
+    319 => 
+    array (
+    ),
+    320 => NULL,
+    331 => 
+    array (
+    ),
+    333 => 
+    array (
+    ),
+    334 => NULL,
+    343 => 
+    array (
+    ),
+    344 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserBlacklistSocialNetwork.php' => 
+  array (
+    60 => 
+    array (
+    ),
+    61 => NULL,
+    72 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    75 => NULL,
+    84 => 
+    array (
+    ),
+    85 => NULL,
+    96 => 
+    array (
+    ),
+    98 => 
+    array (
+    ),
+    99 => NULL,
+    108 => 
+    array (
+    ),
+    109 => NULL,
+    120 => 
+    array (
+    ),
+    122 => 
+    array (
+    ),
+    123 => NULL,
+    132 => 
+    array (
+    ),
+    133 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetworkStatistics.php' => 
+  array (
+    95 => 
+    array (
+    ),
+    96 => NULL,
+    107 => 
+    array (
+    ),
+    109 => 
+    array (
+    ),
+    110 => NULL,
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    131 => 
+    array (
+    ),
+    133 => 
+    array (
+    ),
+    134 => NULL,
+    143 => 
+    array (
+    ),
+    144 => NULL,
+    155 => 
+    array (
+    ),
+    157 => 
+    array (
+    ),
+    158 => NULL,
+    167 => 
+    array (
+    ),
+    168 => NULL,
+    179 => 
+    array (
+    ),
+    181 => 
+    array (
+    ),
+    182 => NULL,
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    203 => 
+    array (
+    ),
+    205 => 
+    array (
+    ),
+    206 => NULL,
+    215 => 
+    array (
+    ),
+    216 => NULL,
+    227 => 
+    array (
+    ),
+    229 => 
+    array (
+    ),
+    230 => NULL,
+    239 => 
+    array (
+    ),
+    240 => NULL,
+    251 => 
+    array (
+    ),
+    253 => 
+    array (
+    ),
+    254 => NULL,
+    263 => 
+    array (
+    ),
+    264 => NULL,
+    275 => 
+    array (
+    ),
+    277 => 
+    array (
+    ),
+    278 => NULL,
+    287 => 
+    array (
+    ),
+    288 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\App.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Pager.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\Menu.php' => 
+  array (
+    92 => 
+    array (
+    ),
+    93 => NULL,
+    104 => 
+    array (
+    ),
+    106 => 
+    array (
+    ),
+    107 => NULL,
+    116 => 
+    array (
+    ),
+    117 => NULL,
+    128 => 
+    array (
+    ),
+    130 => 
+    array (
+    ),
+    131 => NULL,
+    140 => 
+    array (
+    ),
+    141 => NULL,
+    152 => 
+    array (
+    ),
+    154 => 
+    array (
+    ),
+    155 => NULL,
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    176 => 
+    array (
+    ),
+    178 => 
+    array (
+    ),
+    179 => NULL,
+    188 => 
+    array (
+    ),
+    189 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    212 => 
+    array (
+    ),
+    213 => NULL,
+    224 => 
+    array (
+    ),
+    226 => 
+    array (
+    ),
+    227 => NULL,
+    236 => 
+    array (
+    ),
+    237 => NULL,
+    248 => 
+    array (
+    ),
+    250 => 
+    array (
+    ),
+    251 => NULL,
+    260 => 
+    array (
+    ),
+    261 => NULL,
+    272 => 
+    array (
+    ),
+    274 => 
+    array (
+    ),
+    275 => NULL,
+    284 => 
+    array (
+    ),
+    285 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\DocTypes.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Format.php' => 
+  array (
+    54 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    67 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Exceptions.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Database.php' => 
+  array (
+    86 => 
+    array (
+    ),
+    91 => 
+    array (
+    ),
+    93 => 
+    array (
+    ),
+    97 => 
+    array (
+    ),
+    99 => 
+    array (
+    ),
+    101 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    105 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\SocialNetworkAutomatonJob.php' => 
+  array (
+    60 => 
+    array (
+    ),
+    61 => NULL,
+    72 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    75 => NULL,
+    84 => 
+    array (
+    ),
+    85 => NULL,
+    96 => 
+    array (
+    ),
+    98 => 
+    array (
+    ),
+    99 => NULL,
+    108 => 
+    array (
+    ),
+    109 => NULL,
+    120 => 
+    array (
+    ),
+    122 => 
+    array (
+    ),
+    123 => NULL,
+    132 => 
+    array (
+    ),
+    133 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserBlacklist.php' => 
+  array (
+    64 => 
+    array (
+    ),
+    65 => NULL,
+    76 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => NULL,
+    88 => 
+    array (
+    ),
+    89 => NULL,
+    100 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => NULL,
+    112 => 
+    array (
+    ),
+    113 => NULL,
+    124 => 
+    array (
+    ),
+    126 => 
+    array (
+    ),
+    127 => NULL,
+    136 => 
+    array (
+    ),
+    137 => NULL,
+    148 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    151 => NULL,
+    160 => 
+    array (
+    ),
+    161 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetwork.php' => 
+  array (
+    81 => 
+    array (
+    ),
+    82 => NULL,
+    93 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    96 => NULL,
+    105 => 
+    array (
+    ),
+    106 => NULL,
+    117 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    129 => 
+    array (
+    ),
+    130 => NULL,
+    141 => 
+    array (
+    ),
+    143 => 
+    array (
+    ),
+    144 => NULL,
+    153 => 
+    array (
+    ),
+    154 => NULL,
+    165 => 
+    array (
+    ),
+    167 => 
+    array (
+    ),
+    168 => NULL,
+    177 => 
+    array (
+    ),
+    178 => NULL,
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    201 => 
+    array (
+    ),
+    202 => NULL,
+    213 => 
+    array (
+    ),
+    215 => 
+    array (
+    ),
+    216 => NULL,
+    225 => 
+    array (
+    ),
+    226 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityAutomatonQueue.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetworkPlan.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\SocialNetworkPlan.php' => 
+  array (
+    148 => 
+    array (
+    ),
+    149 => NULL,
+    160 => 
+    array (
+    ),
+    162 => 
+    array (
+    ),
+    163 => NULL,
+    172 => 
+    array (
+    ),
+    173 => NULL,
+    184 => 
+    array (
+    ),
+    186 => 
+    array (
+    ),
+    187 => NULL,
+    196 => 
+    array (
+    ),
+    197 => NULL,
+    208 => 
+    array (
+    ),
+    210 => 
+    array (
+    ),
+    211 => NULL,
+    220 => 
+    array (
+    ),
+    221 => NULL,
+    232 => 
+    array (
+    ),
+    234 => 
+    array (
+    ),
+    235 => NULL,
+    244 => 
+    array (
+    ),
+    245 => NULL,
+    256 => 
+    array (
+    ),
+    258 => 
+    array (
+    ),
+    259 => NULL,
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    280 => 
+    array (
+    ),
+    282 => 
+    array (
+    ),
+    283 => NULL,
+    292 => 
+    array (
+    ),
+    293 => NULL,
+    304 => 
+    array (
+    ),
+    306 => 
+    array (
+    ),
+    307 => NULL,
+    316 => 
+    array (
+    ),
+    317 => NULL,
+    328 => 
+    array (
+    ),
+    330 => 
+    array (
+    ),
+    331 => NULL,
+    340 => 
+    array (
+    ),
+    341 => NULL,
+    352 => 
+    array (
+    ),
+    354 => 
+    array (
+    ),
+    355 => NULL,
+    364 => 
+    array (
+    ),
+    365 => NULL,
+    376 => 
+    array (
+    ),
+    378 => 
+    array (
+    ),
+    379 => NULL,
+    388 => 
+    array (
+    ),
+    389 => NULL,
+    400 => 
+    array (
+    ),
+    402 => 
+    array (
+    ),
+    403 => NULL,
+    412 => 
+    array (
+    ),
+    413 => NULL,
+    424 => 
+    array (
+    ),
+    426 => 
+    array (
+    ),
+    427 => NULL,
+    436 => 
+    array (
+    ),
+    437 => NULL,
+    448 => 
+    array (
+    ),
+    450 => 
+    array (
+    ),
+    451 => NULL,
+    460 => 
+    array (
+    ),
+    461 => NULL,
+    472 => 
+    array (
+    ),
+    474 => 
+    array (
+    ),
+    475 => NULL,
+    484 => 
+    array (
+    ),
+    485 => NULL,
+    496 => 
+    array (
+    ),
+    498 => 
+    array (
+    ),
+    499 => NULL,
+    508 => 
+    array (
+    ),
+    509 => NULL,
+    520 => 
+    array (
+    ),
+    522 => 
+    array (
+    ),
+    523 => NULL,
+    532 => 
+    array (
+    ),
+    533 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntitySocialNetwork.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+    288 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => NULL,
+    299 => 
+    array (
+    ),
+    301 => 
+    array (
+    ),
+    302 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    321 => 
+    array (
+    ),
+    323 => 
+    array (
+    ),
+    324 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Kint.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Boot\\development.php' => 
+  array (
+    10 => 
+    array (
+    ),
+    11 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserKeyword.php' => 
+  array (
+    64 => 
+    array (
+    ),
+    65 => NULL,
+    76 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => NULL,
+    88 => 
+    array (
+    ),
+    89 => NULL,
+    100 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => NULL,
+    112 => 
+    array (
+    ),
+    113 => NULL,
+    124 => 
+    array (
+    ),
+    126 => 
+    array (
+    ),
+    127 => NULL,
+    136 => 
+    array (
+    ),
+    137 => NULL,
+    148 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    151 => NULL,
+    160 => 
+    array (
+    ),
+    161 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetworkHistorical.php' => 
+  array (
+    64 => 
+    array (
+    ),
+    65 => NULL,
+    76 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => NULL,
+    88 => 
+    array (
+    ),
+    89 => NULL,
+    100 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => NULL,
+    112 => 
+    array (
+    ),
+    113 => NULL,
+    124 => 
+    array (
+    ),
+    126 => 
+    array (
+    ),
+    127 => NULL,
+    136 => 
+    array (
+    ),
+    137 => NULL,
+    148 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    151 => NULL,
+    160 => 
+    array (
+    ),
+    161 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityCrypter.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserTrackingSocialNetwork.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+    288 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => NULL,
+    299 => 
+    array (
+    ),
+    301 => 
+    array (
+    ),
+    302 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    321 => 
+    array (
+    ),
+    323 => 
+    array (
+    ),
+    324 => NULL,
+    332 => 
+    array (
+    ),
+    334 => 
+    array (
+    ),
+    335 => NULL,
+    343 => 
+    array (
+    ),
+    345 => 
+    array (
+    ),
+    346 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserPayments.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+    288 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => NULL,
+    299 => 
+    array (
+    ),
+    301 => 
+    array (
+    ),
+    302 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    321 => 
+    array (
+    ),
+    323 => 
+    array (
+    ),
+    324 => NULL,
+    332 => 
+    array (
+    ),
+    334 => 
+    array (
+    ),
+    335 => NULL,
+    343 => 
+    array (
+    ),
+    345 => 
+    array (
+    ),
+    346 => NULL,
+    354 => 
+    array (
+    ),
+    356 => 
+    array (
+    ),
+    357 => NULL,
+    365 => 
+    array (
+    ),
+    367 => 
+    array (
+    ),
+    368 => NULL,
+    376 => 
+    array (
+    ),
+    378 => 
+    array (
+    ),
+    379 => NULL,
+    387 => 
+    array (
+    ),
+    389 => 
+    array (
+    ),
+    390 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\UserAgents.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\Config.php' => 
+  array (
+    54 => 
+    array (
+    ),
+    55 => NULL,
+    66 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => NULL,
+    78 => 
+    array (
+    ),
+    79 => NULL,
+    90 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    93 => NULL,
+    102 => 
+    array (
+    ),
+    103 => NULL,
+    114 => 
+    array (
+    ),
+    116 => 
+    array (
+    ),
+    117 => NULL,
+    126 => 
+    array (
+    ),
+    127 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetworkNotification.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetworkTask.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+    288 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => NULL,
+    299 => 
+    array (
+    ),
+    301 => 
+    array (
+    ),
+    302 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    321 => 
+    array (
+    ),
+    323 => 
+    array (
+    ),
+    324 => NULL,
+    332 => 
+    array (
+    ),
+    334 => 
+    array (
+    ),
+    335 => NULL,
+    343 => 
+    array (
+    ),
+    345 => 
+    array (
+    ),
+    346 => NULL,
+    354 => 
+    array (
+    ),
+    356 => 
+    array (
+    ),
+    357 => NULL,
+    365 => 
+    array (
+    ),
+    367 => 
+    array (
+    ),
+    368 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Boot\\testing.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserKeywordSocialNetwork.php' => 
+  array (
+    88 => 
+    array (
+    ),
+    89 => NULL,
+    100 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => NULL,
+    112 => 
+    array (
+    ),
+    113 => NULL,
+    124 => 
+    array (
+    ),
+    126 => 
+    array (
+    ),
+    127 => NULL,
+    136 => 
+    array (
+    ),
+    137 => NULL,
+    148 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    151 => NULL,
+    160 => 
+    array (
+    ),
+    161 => NULL,
+    172 => 
+    array (
+    ),
+    174 => 
+    array (
+    ),
+    175 => NULL,
+    184 => 
+    array (
+    ),
+    185 => NULL,
+    196 => 
+    array (
+    ),
+    198 => 
+    array (
+    ),
+    199 => NULL,
+    208 => 
+    array (
+    ),
+    209 => NULL,
+    220 => 
+    array (
+    ),
+    222 => 
+    array (
+    ),
+    223 => NULL,
+    232 => 
+    array (
+    ),
+    233 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    256 => 
+    array (
+    ),
+    257 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserTracking.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserAffiliate.php' => 
+  array (
+    64 => 
+    array (
+    ),
+    65 => NULL,
+    76 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => NULL,
+    88 => 
+    array (
+    ),
+    89 => NULL,
+    100 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => NULL,
+    112 => 
+    array (
+    ),
+    113 => NULL,
+    124 => 
+    array (
+    ),
+    126 => 
+    array (
+    ),
+    127 => NULL,
+    136 => 
+    array (
+    ),
+    137 => NULL,
+    148 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    151 => NULL,
+    160 => 
+    array (
+    ),
+    161 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Honeypot.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\ContentSecurityPolicy.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Events.php' => 
+  array (
+    23 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Migrations.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Mimes.php' => 
+  array (
+    486 => 
+    array (
+    ),
+    488 => 
+    array (
+    ),
+    490 => 
+    array (
+    ),
+    493 => 
+    array (
+    ),
+    494 => NULL,
+    508 => 
+    array (
+    ),
+    510 => 
+    array (
+    ),
+    512 => 
+    array (
+    ),
+    514 => 
+    array (
+    ),
+    517 => 
+    array (
+    ),
+    519 => 
+    array (
+    ),
+    521 => 
+    array (
+    ),
+    523 => 
+    array (
+    ),
+    525 => 
+    array (
+    ),
+    529 => 
+    array (
+    ),
+    530 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityMenu.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+    288 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => NULL,
+    299 => 
+    array (
+    ),
+    301 => 
+    array (
+    ),
+    302 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    321 => 
+    array (
+    ),
+    323 => 
+    array (
+    ),
+    324 => NULL,
+    332 => 
+    array (
+    ),
+    334 => 
+    array (
+    ),
+    335 => NULL,
+    343 => 
+    array (
+    ),
+    345 => 
+    array (
+    ),
+    346 => NULL,
+    354 => 
+    array (
+    ),
+    356 => 
+    array (
+    ),
+    357 => NULL,
+    365 => 
+    array (
+    ),
+    367 => 
+    array (
+    ),
+    368 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Filters.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityAutomatonJob.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+    288 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => NULL,
+    299 => 
+    array (
+    ),
+    301 => 
+    array (
+    ),
+    302 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    321 => 
+    array (
+    ),
+    323 => 
+    array (
+    ),
+    324 => NULL,
+    332 => 
+    array (
+    ),
+    334 => 
+    array (
+    ),
+    335 => NULL,
+    343 => 
+    array (
+    ),
+    345 => 
+    array (
+    ),
+    346 => NULL,
+    354 => 
+    array (
+    ),
+    356 => 
+    array (
+    ),
+    357 => NULL,
+    365 => 
+    array (
+    ),
+    367 => 
+    array (
+    ),
+    368 => NULL,
+    376 => 
+    array (
+    ),
+    378 => 
+    array (
+    ),
+    379 => NULL,
+    387 => 
+    array (
+    ),
+    389 => 
+    array (
+    ),
+    390 => NULL,
+    398 => 
+    array (
+    ),
+    400 => 
+    array (
+    ),
+    401 => NULL,
+    409 => 
+    array (
+    ),
+    411 => 
+    array (
+    ),
+    412 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUser.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+    288 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => NULL,
+    299 => 
+    array (
+    ),
+    301 => 
+    array (
+    ),
+    302 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    321 => 
+    array (
+    ),
+    323 => 
+    array (
+    ),
+    324 => NULL,
+    332 => 
+    array (
+    ),
+    334 => 
+    array (
+    ),
+    335 => NULL,
+    343 => 
+    array (
+    ),
+    345 => 
+    array (
+    ),
+    346 => NULL,
+    354 => 
+    array (
+    ),
+    356 => 
+    array (
+    ),
+    357 => NULL,
+    365 => 
+    array (
+    ),
+    367 => 
+    array (
+    ),
+    368 => NULL,
+    376 => 
+    array (
+    ),
+    378 => 
+    array (
+    ),
+    379 => NULL,
+    387 => 
+    array (
+    ),
+    389 => 
+    array (
+    ),
+    390 => NULL,
+    398 => 
+    array (
+    ),
+    400 => 
+    array (
+    ),
+    401 => NULL,
+    409 => 
+    array (
+    ),
+    411 => 
+    array (
+    ),
+    412 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserBlacklistSocialNetwork.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetworkStatistics.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+    288 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => NULL,
+    299 => 
+    array (
+    ),
+    301 => 
+    array (
+    ),
+    302 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    321 => 
+    array (
+    ),
+    323 => 
+    array (
+    ),
+    324 => NULL,
+    332 => 
+    array (
+    ),
+    334 => 
+    array (
+    ),
+    335 => NULL,
+    343 => 
+    array (
+    ),
+    345 => 
+    array (
+    ),
+    346 => NULL,
+    354 => 
+    array (
+    ),
+    356 => 
+    array (
+    ),
+    357 => NULL,
+    365 => 
+    array (
+    ),
+    367 => 
+    array (
+    ),
+    368 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\ForeignCharacters.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Images.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Logger.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\SocialNetwork.php' => 
+  array (
+    75 => 
+    array (
+    ),
+    76 => NULL,
+    87 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    90 => NULL,
+    99 => 
+    array (
+    ),
+    100 => NULL,
+    111 => 
+    array (
+    ),
+    113 => 
+    array (
+    ),
+    114 => NULL,
+    123 => 
+    array (
+    ),
+    124 => NULL,
+    135 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => NULL,
+    147 => 
+    array (
+    ),
+    148 => NULL,
+    159 => 
+    array (
+    ),
+    161 => 
+    array (
+    ),
+    162 => NULL,
+    171 => 
+    array (
+    ),
+    172 => NULL,
+    183 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    186 => NULL,
+    195 => 
+    array (
+    ),
+    196 => NULL,
+    207 => 
+    array (
+    ),
+    209 => 
+    array (
+    ),
+    210 => NULL,
+    219 => 
+    array (
+    ),
+    220 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntitySocialNetworkPlan.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+    288 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => NULL,
+    299 => 
+    array (
+    ),
+    301 => 
+    array (
+    ),
+    302 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    321 => 
+    array (
+    ),
+    323 => 
+    array (
+    ),
+    324 => NULL,
+    332 => 
+    array (
+    ),
+    334 => 
+    array (
+    ),
+    335 => NULL,
+    343 => 
+    array (
+    ),
+    345 => 
+    array (
+    ),
+    346 => NULL,
+    354 => 
+    array (
+    ),
+    356 => 
+    array (
+    ),
+    357 => NULL,
+    365 => 
+    array (
+    ),
+    367 => 
+    array (
+    ),
+    368 => NULL,
+    376 => 
+    array (
+    ),
+    378 => 
+    array (
+    ),
+    379 => NULL,
+    387 => 
+    array (
+    ),
+    389 => 
+    array (
+    ),
+    390 => NULL,
+    398 => 
+    array (
+    ),
+    400 => 
+    array (
+    ),
+    401 => NULL,
+    409 => 
+    array (
+    ),
+    411 => 
+    array (
+    ),
+    412 => NULL,
+    420 => 
+    array (
+    ),
+    422 => 
+    array (
+    ),
+    423 => NULL,
+    431 => 
+    array (
+    ),
+    433 => 
+    array (
+    ),
+    434 => NULL,
+    442 => 
+    array (
+    ),
+    444 => 
+    array (
+    ),
+    445 => NULL,
+    453 => 
+    array (
+    ),
+    455 => 
+    array (
+    ),
+    456 => NULL,
+    464 => 
+    array (
+    ),
+    466 => 
+    array (
+    ),
+    467 => NULL,
+    475 => 
+    array (
+    ),
+    477 => 
+    array (
+    ),
+    478 => NULL,
+    486 => 
+    array (
+    ),
+    488 => 
+    array (
+    ),
+    489 => NULL,
+    497 => 
+    array (
+    ),
+    499 => 
+    array (
+    ),
+    500 => NULL,
+    508 => 
+    array (
+    ),
+    510 => 
+    array (
+    ),
+    511 => NULL,
+    519 => 
+    array (
+    ),
+    521 => 
+    array (
+    ),
+    522 => NULL,
+    530 => 
+    array (
+    ),
+    532 => 
+    array (
+    ),
+    533 => NULL,
+    541 => 
+    array (
+    ),
+    543 => 
+    array (
+    ),
+    544 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\AutomatonQueue.php' => 
+  array (
+    47 => 
+    array (
+    ),
+    48 => NULL,
+    59 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    62 => NULL,
+    71 => 
+    array (
+    ),
+    72 => NULL,
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    86 => NULL,
+    95 => 
+    array (
+    ),
+    96 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetworkPlan.php' => 
+  array (
+    67 => 
+    array (
+    ),
+    68 => NULL,
+    79 => 
+    array (
+    ),
+    81 => 
+    array (
+    ),
+    82 => NULL,
+    91 => 
+    array (
+    ),
+    92 => NULL,
+    103 => 
+    array (
+    ),
+    105 => 
+    array (
+    ),
+    106 => NULL,
+    115 => 
+    array (
+    ),
+    116 => NULL,
+    127 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    130 => NULL,
+    139 => 
+    array (
+    ),
+    140 => NULL,
+    151 => 
+    array (
+    ),
+    153 => 
+    array (
+    ),
+    154 => NULL,
+    163 => 
+    array (
+    ),
+    164 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntitySocialNetworkAutomatonJob.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserBlacklist.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetwork.php' => 
+  array (
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => NULL,
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => NULL,
+    128 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    165 => NULL,
+    175 => 
+    array (
+    ),
+    176 => NULL,
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+    189 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => NULL,
+    200 => 
+    array (
+    ),
+    202 => 
+    array (
+    ),
+    203 => NULL,
+    211 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    214 => NULL,
+    222 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => NULL,
+    233 => 
+    array (
+    ),
+    235 => 
+    array (
+    ),
+    236 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => NULL,
+    255 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    258 => NULL,
+    266 => 
+    array (
+    ),
+    268 => 
+    array (
+    ),
+    269 => NULL,
+    277 => 
+    array (
+    ),
+    279 => 
+    array (
+    ),
+    280 => NULL,
+    288 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => NULL,
+    299 => 
+    array (
+    ),
+    301 => 
+    array (
+    ),
+    302 => NULL,
+    310 => 
+    array (
+    ),
+    312 => 
+    array (
+    ),
+    313 => NULL,
+    321 => 
+    array (
+    ),
+    323 => 
+    array (
+    ),
+    324 => NULL,
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Zoom.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Common.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Constants.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Paths.php' => 
+  array (
+  ),
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Services.php' => 
+  array (
+    6 => 
+    array (
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'TwigTest::testLoadTwig' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TwigTest::testAddGlobal' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Common.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\App.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Autoload.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Boot\\development.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Boot\\production.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Boot\\testing.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Cache.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Constants.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\ContentSecurityPolicy.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Database.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\DocTypes.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Doctrine.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Email.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Encryption.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Events.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Exceptions.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Filters.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\ForeignCharacters.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Format.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Honeypot.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Images.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Kint.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Logger.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Migrations.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Mimes.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Modules.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Pager.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Paths.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Services.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Toolbar.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Twig.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\UserAgents.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Validation.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\View.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Config\\Zoom.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Controllers\\BaseController.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Controllers\\Home.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\AutomatonJob.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\AutomatonQueue.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\Config.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\Crypter.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\Menu.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\SocialNetwork.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\SocialNetworkAutomatonJob.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\SocialNetworkPlan.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\User.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserAffiliate.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserBlacklist.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserBlacklistSocialNetwork.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserKeyword.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserKeywordSocialNetwork.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserPayments.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetwork.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetworkHistorical.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetworkNotification.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetworkPlan.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetworkStatistics.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserSocialNetworkTask.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserTracking.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Entity\\UserTrackingSocialNetwork.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityAutomatonJob.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityAutomatonQueue.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityConfig.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityCrypter.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityMenu.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntitySocialNetwork.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntitySocialNetworkAutomatonJob.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntitySocialNetworkPlan.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUser.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserAffiliate.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserBlacklist.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserBlacklistSocialNetwork.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserKeyword.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserKeywordSocialNetwork.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserPayments.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetwork.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetworkHistorical.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetworkNotification.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetworkPlan.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetworkStatistics.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserSocialNetworkTask.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserTracking.php' => true,
+  'C:\\xampp\\htdocs\\protectyourdata\\app\\Models\\Proxies\\__CG__AppModelsEntityUserTrackingSocialNetwork.php' => true,
+));
+
+return $coverage;

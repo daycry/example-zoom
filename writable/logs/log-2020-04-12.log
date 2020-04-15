@@ -1,0 +1,383 @@
+CRITICAL - 2020-04-12 08:42:13 --> Undefined variable: session
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(31): Daycry\Zoom\Zoom->authentication()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->zoom()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 09:43:46 --> file_get_contents(token.json): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(40): file_get_contents('token.json')
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 11:56:48 --> Return value of CodeIgniter\Language\Language::requireFile() must be of the type array, int returned
+#0 C:\xampp\htdocs\protectyourdata\system\Language\Language.php(277): CodeIgniter\Language\Language->requireFile('Language/en/Zoo...')
+#1 C:\xampp\htdocs\protectyourdata\system\Language\Language.php(201): CodeIgniter\Language\Language->load('Zoom', 'en')
+#2 C:\xampp\htdocs\protectyourdata\system\Language\Language.php(150): CodeIgniter\Language\Language->parseLine('tokenExpired', 'en')
+#3 C:\xampp\htdocs\protectyourdata\system\Common.php(671): CodeIgniter\Language\Language->getLine('Zoom.tokenExpir...', Array)
+#4 C:\xampp\htdocs\vendors\daycry\zoom\src\Exceptions\ZoomException.php(12): lang('Zoom.tokenExpir...')
+#5 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#6 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(44): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#7 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#8 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-04-12 12:07:21 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(44): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:14:11 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:14:57 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:15:09 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:17:26 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:17:27 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:17:28 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:17:28 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:17:28 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:19:46 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:19:48 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:28 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:29 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:29 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:30 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:30 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:30 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:31 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:31 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:31 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:31 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:32 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:32 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:32 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:33 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:48 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:20:56 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:23:26 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:23:27 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:23:27 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:23:28 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:23:28 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:23:28 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:23:29 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(137): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->request('GET', 'users', Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:34:49 --> Call to a member function hasExpired() on null
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(46): Daycry\Zoom\Zoom->refreshAccessToken()
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-12 12:36:35 --> Undefined variable: provider
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 123, Array)
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(48): Daycry\Zoom\Zoom->refreshAccessToken()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-12 12:37:58 --> invalid_request
+#0 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(629): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(537): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(124): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#3 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(48): Daycry\Zoom\Zoom->refreshAccessToken()
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#5 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-12 12:38:40 --> invalid_request
+#0 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(629): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(537): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(124): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#3 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(48): Daycry\Zoom\Zoom->refreshAccessToken()
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#5 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-12 12:38:47 --> invalid_request
+#0 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(629): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(537): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(124): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#3 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(48): Daycry\Zoom\Zoom->refreshAccessToken()
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#5 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-12 12:39:58 --> invalid_request
+#0 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(629): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(537): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(124): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#3 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(48): Daycry\Zoom\Zoom->refreshAccessToken()
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#5 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-12 12:45:23 --> Too few arguments to function Daycry\Zoom\Zoom::refreshAccessToken(), 0 passed in C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php on line 48 and exactly 1 expected
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(48): Daycry\Zoom\Zoom->refreshAccessToken()
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-12 12:46:26 --> invalid_request
+#0 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(629): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(537): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(130): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#3 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(48): Daycry\Zoom\Zoom->refreshAccessToken()
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#5 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-12 12:50:08 --> invalid_request
+#0 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(629): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(537): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(130): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#3 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(48): Daycry\Zoom\Zoom->refreshAccessToken()
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->token()
+#5 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

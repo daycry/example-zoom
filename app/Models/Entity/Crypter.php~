@@ -1,0 +1,53 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Crypter
+ *
+ * @ORM\Table(name="crypter", indexes={@ORM\Index(name="name", columns={"param"})})
+ * @ORM\Entity
+ */
+class Crypter
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="param", type="string", length=50, nullable=false)
+     */
+    private $param;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="value", type="string", length=255, nullable=true)
+     */
+    private $value;
+
+    /**
+     * @var \DateTime|null
+     *
+     * @ORM\Column(name="date_expired", type="date", nullable=true)
+     */
+    private $dateExpired;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="active", type="boolean", nullable=false, options={"default"="1"})
+     */
+    private $active = true;
+
+
+}

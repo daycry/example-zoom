@@ -1,0 +1,87 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * UserSocialNetworkStatistics
+ *
+ * @ORM\Table(name="user_social_network_statistics", indexes={@ORM\Index(name="user_social_network_id", columns={"user_social_network_id"}), @ORM\Index(name="user_social_network_plan_id", columns={"user_social_network_plan_id"})})
+ * @ORM\Entity
+ */
+class UserSocialNetworkStatistics
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="likes", type="integer", nullable=false)
+     */
+    private $likes = '0';
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="shares", type="integer", nullable=false)
+     */
+    private $shares = '0';
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="follows", type="integer", nullable=false)
+     */
+    private $follows = '0';
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="unfollows", type="integer", nullable=false)
+     */
+    private $unfollows = '0';
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_created", type="datetime", nullable=false, options={"default"="CURRENT_TIMESTAMP"})
+     */
+    private $dateCreated = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_modified", type="datetime", nullable=false, options={"default"="CURRENT_TIMESTAMP"})
+     */
+    private $dateModified = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var \App\Models\Entity\UserSocialNetwork
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\UserSocialNetwork")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="user_social_network_id", referencedColumnName="id")
+     * })
+     */
+    private $userSocialNetwork;
+
+    /**
+     * @var \App\Models\Entity\UserSocialNetworkPlan
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\UserSocialNetworkPlan")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="user_social_network_plan_id", referencedColumnName="id")
+     * })
+     */
+    private $userSocialNetworkPlan;
+
+
+}

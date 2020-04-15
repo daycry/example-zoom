@@ -1,0 +1,56 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * UserTracking
+ *
+ * @ORM\Table(name="user_tracking", indexes={@ORM\Index(name="tracked", columns={"tracked"}), @ORM\Index(name="user_id", columns={"user_id"})})
+ * @ORM\Entity
+ */
+class UserTracking
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="tracked", type="string", length=100, nullable=false)
+     */
+    private $tracked;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_created", type="datetime", nullable=false, options={"default"="CURRENT_TIMESTAMP"})
+     */
+    private $dateCreated = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_modified", type="datetime", nullable=false, options={"default"="CURRENT_TIMESTAMP"})
+     */
+    private $dateModified = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var \App\Models\Entity\User
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\User")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="user_id", referencedColumnName="id")
+     * })
+     */
+    private $user;
+
+
+}

@@ -1,0 +1,52 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * UserBlacklistSocialNetwork
+ *
+ * @ORM\Table(name="user_blacklist_social_network", indexes={@ORM\Index(name="user_social_network_id", columns={"user_social_network_id"}), @ORM\Index(name="user_blacklist_id", columns={"user_blacklist_id"}), @ORM\Index(name="active", columns={"active"})})
+ * @ORM\Entity
+ */
+class UserBlacklistSocialNetwork
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var bool|null
+     *
+     * @ORM\Column(name="active", type="boolean", nullable=true, options={"default"="1"})
+     */
+    private $active = true;
+
+    /**
+     * @var \App\Models\Entity\UserBlacklist
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\UserBlacklist")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="user_blacklist_id", referencedColumnName="id")
+     * })
+     */
+    private $userBlacklist;
+
+    /**
+     * @var \App\Models\Entity\UserSocialNetwork
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\UserSocialNetwork")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="user_social_network_id", referencedColumnName="id")
+     * })
+     */
+    private $userSocialNetwork;
+
+
+}

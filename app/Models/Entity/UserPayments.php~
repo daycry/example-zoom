@@ -1,0 +1,94 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * UserPayments
+ *
+ * @ORM\Table(name="user_payments", indexes={@ORM\Index(name="user_id", columns={"user_id"}), @ORM\Index(name="social_network_plan_id", columns={"social_network_plan_id"})})
+ * @ORM\Entity
+ */
+class UserPayments
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="method", type="string", length=50, nullable=false)
+     */
+    private $method;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="payment_id", type="string", length=255, nullable=false)
+     */
+    private $paymentId;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="price", type="decimal", precision=10, scale=2, nullable=false)
+     */
+    private $price;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="currency_code", type="string", length=5, nullable=false)
+     */
+    private $currencyCode;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="payer_email", type="string", length=255, nullable=true)
+     */
+    private $payerEmail;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="payment_status", type="string", length=255, nullable=false)
+     */
+    private $paymentStatus;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_created", type="datetime", nullable=false, options={"default"="CURRENT_TIMESTAMP"})
+     */
+    private $dateCreated = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var \App\Models\Entity\User
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\User")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="user_id", referencedColumnName="id")
+     * })
+     */
+    private $user;
+
+    /**
+     * @var \App\Models\Entity\SocialNetworkPlan
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\SocialNetworkPlan")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="social_network_plan_id", referencedColumnName="id")
+     * })
+     */
+    private $socialNetworkPlan;
+
+
+}

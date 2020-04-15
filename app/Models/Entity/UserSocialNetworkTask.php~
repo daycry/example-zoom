@@ -1,0 +1,87 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * UserSocialNetworkTask
+ *
+ * @ORM\Table(name="user_social_network_task", indexes={@ORM\Index(name="user_social_network_id", columns={"user_social_network_id"}), @ORM\Index(name="active", columns={"active"}), @ORM\Index(name="social_network_automaton_job_id", columns={"social_network_automaton_job_id"})})
+ * @ORM\Entity
+ */
+class UserSocialNetworkTask
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="exec_at", type="string", length=50, nullable=false)
+     */
+    private $execAt;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="in_progress", type="boolean", nullable=false)
+     */
+    private $inProgress = '0';
+
+    /**
+     * @var \DateTime|null
+     *
+     * @ORM\Column(name="last_execution", type="datetime", nullable=true)
+     */
+    private $lastExecution;
+
+    /**
+     * @var \DateTime|null
+     *
+     * @ORM\Column(name="date_modified", type="datetime", nullable=true)
+     */
+    private $dateModified;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="editable", type="boolean", nullable=false)
+     */
+    private $editable = '0';
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="active", type="boolean", nullable=false, options={"default"="1"})
+     */
+    private $active = true;
+
+    /**
+     * @var \App\Models\Entity\SocialNetworkAutomatonJob
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\SocialNetworkAutomatonJob")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="social_network_automaton_job_id", referencedColumnName="id")
+     * })
+     */
+    private $socialNetworkAutomatonJob;
+
+    /**
+     * @var \App\Models\Entity\UserSocialNetwork
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\UserSocialNetwork")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="user_social_network_id", referencedColumnName="id")
+     * })
+     */
+    private $userSocialNetwork;
+
+
+}

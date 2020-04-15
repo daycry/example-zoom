@@ -1,0 +1,140 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * SocialNetworkPlan
+ *
+ * @ORM\Table(name="social_network_plan", indexes={@ORM\Index(name="social_network_id", columns={"social_network_id"}), @ORM\Index(name="active", columns={"active"})})
+ * @ORM\Entity
+ */
+class SocialNetworkPlan
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=50, nullable=false)
+     */
+    private $name;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="price", type="decimal", precision=10, scale=2, nullable=false)
+     */
+    private $price;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="duration", type="string", length=50, nullable=false)
+     */
+    private $duration;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="offer", type="boolean", nullable=false)
+     */
+    private $offer = '0';
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="permit_likes", type="boolean", nullable=false, options={"default"="1"})
+     */
+    private $permitLikes = true;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="permit_shares", type="boolean", nullable=false, options={"default"="1"})
+     */
+    private $permitShares = true;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="permit_follows", type="boolean", nullable=false, options={"default"="1"})
+     */
+    private $permitFollows = true;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="likes", type="integer", nullable=false)
+     */
+    private $likes;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="shares", type="integer", nullable=false)
+     */
+    private $shares;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="targets", type="integer", nullable=false)
+     */
+    private $targets;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="trackings", type="integer", nullable=false)
+     */
+    private $trackings;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="processes", type="integer", nullable=false)
+     */
+    private $processes;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_created", type="datetime", nullable=false, options={"default"="CURRENT_TIMESTAMP"})
+     */
+    private $dateCreated = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_modified", type="datetime", nullable=false, options={"default"="CURRENT_TIMESTAMP"})
+     */
+    private $dateModified = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="active", type="boolean", nullable=false)
+     */
+    private $active;
+
+    /**
+     * @var \App\Models\Entity\SocialNetwork
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\SocialNetwork")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="social_network_id", referencedColumnName="id")
+     * })
+     */
+    private $socialNetwork;
+
+
+}

@@ -1,0 +1,56 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * UserSocialNetworkNotification
+ *
+ * @ORM\Table(name="user_social_network_notification", indexes={@ORM\Index(name="user_id", columns={"user_social_network_id"})})
+ * @ORM\Entity
+ */
+class UserSocialNetworkNotification
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="message", type="string", length=255, nullable=false)
+     */
+    private $message;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="description", type="string", length=255, nullable=true)
+     */
+    private $description;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_created", type="datetime", nullable=false, options={"default"="CURRENT_TIMESTAMP"})
+     */
+    private $dateCreated = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var \App\Models\Entity\UserSocialNetwork
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\UserSocialNetwork")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="user_social_network_id", referencedColumnName="id")
+     * })
+     */
+    private $userSocialNetwork;
+
+
+}

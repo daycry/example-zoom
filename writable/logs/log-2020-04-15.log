@@ -1,0 +1,260 @@
+CRITICAL - 2020-04-15 05:11:21 --> invalid_request
+#0 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(629): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(537): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(130): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#3 C:\xampp\htdocs\protectyourdata\app\Controllers\Home.php(48): Daycry\Zoom\Zoom->refreshAccessToken()
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Home->refresh()
+#5 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-15 05:28:01 --> Call to undefined function App\Controllers\write_file()
+#0 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->authentication()
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 05:30:40 --> Argument 2 passed to write_file() must be of the type string, array given, called in C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php on line 15
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(15): write_file('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->authentication()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 05:31:27 --> Array to string conversion
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->authentication()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 05:32:08 --> Required parameter not passed: "code"
+#0 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Tool\RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('code', Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Grant\AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(91): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#4 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(11): Daycry\Zoom\Zoom->authentication()
+#5 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->authentication()
+#6 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#7 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-15 05:32:09 --> Required parameter not passed: "code"
+#0 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Tool\RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('code', Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Grant\AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(91): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), Array)
+#4 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(11): Daycry\Zoom\Zoom->authentication()
+#5 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->authentication()
+#6 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#7 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-15 05:38:51 --> Argument 2 passed to write_file() must be of the type string, array given, called in C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php on line 16
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(16): write_file('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->authentication()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 05:38:52 --> Argument 2 passed to write_file() must be of the type string, array given, called in C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php on line 16
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(16): write_file('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->authentication()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 05:52:24 --> Invalid resource type: array
+#0 C:\xampp\htdocs\protectyourdata\vendor\guzzlehttp\psr7\src\Request.php(54): GuzzleHttp\Psr7\stream_for(Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Tool\RequestFactory.php(44): GuzzleHttp\Psr7\Request->__construct('GET', Object(GuzzleHttp\Psr7\Uri), Array, Array, '1.1')
+#2 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Tool\RequestFactory.php(84): League\OAuth2\Client\Tool\RequestFactory->getRequest('GET', 'https://api.zoo...', Array, Array, '1.1')
+#3 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(595): League\OAuth2\Client\Tool\RequestFactory->getRequestWithOptions('GET', 'https://api.zoo...', Array)
+#4 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(573): League\OAuth2\Client\Provider\AbstractProvider->createRequest('GET', 'https://api.zoo...', Object(League\OAuth2\Client\Token\AccessToken), Array)
+#5 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(156): League\OAuth2\Client\Provider\AbstractProvider->getAuthenticatedRequest('GET', 'https://api.zoo...', Object(League\OAuth2\Client\Token\AccessToken), Array)
+#6 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(73): Daycry\Zoom\Zoom->request('GET', 'users/jmano@med...', Array)
+#7 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#8 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#9 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-04-15 05:57:11 --> Invalid resource type: array
+#0 C:\xampp\htdocs\protectyourdata\vendor\guzzlehttp\psr7\src\Request.php(54): GuzzleHttp\Psr7\stream_for(Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Tool\RequestFactory.php(44): GuzzleHttp\Psr7\Request->__construct('GET', Object(GuzzleHttp\Psr7\Uri), Array, Array, '1.1')
+#2 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Tool\RequestFactory.php(84): League\OAuth2\Client\Tool\RequestFactory->getRequest('GET', 'https://api.zoo...', Array, Array, '1.1')
+#3 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(595): League\OAuth2\Client\Tool\RequestFactory->getRequestWithOptions('GET', 'https://api.zoo...', Array)
+#4 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(573): League\OAuth2\Client\Provider\AbstractProvider->createRequest('GET', 'https://api.zoo...', Object(League\OAuth2\Client\Token\AccessToken), Array)
+#5 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(156): League\OAuth2\Client\Provider\AbstractProvider->getAuthenticatedRequest('GET', 'https://api.zoo...', Object(League\OAuth2\Client\Token\AccessToken), Array)
+#6 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(73): Daycry\Zoom\Zoom->request('GET', 'users/jmano@med...', Array)
+#7 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#8 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#9 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-04-15 06:10:42 --> Undefined variable: response
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:12:11 --> Undefined variable: response
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:12:31 --> Undefined variable: response
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:13:36 --> Undefined variable: response
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:15:11 --> Undefined variable: response
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:15:38 --> Undefined variable: response
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:16:20 --> Undefined variable: response
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:31:57 --> Trying to get property 'meetings' of non-object
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:32:26 --> Undefined index: meetings 
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:33:15 --> Undefined variable: reponse
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:33:54 --> Undefined index: meetings 
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:34:43 --> Cannot use [] for reading
+#0 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-15 06:36:28 --> Trying to get property 'start_time' of non-object
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 06:51:15 --> Invalid resource type: array
+#0 C:\xampp\htdocs\protectyourdata\vendor\guzzlehttp\psr7\src\Request.php(54): GuzzleHttp\Psr7\stream_for(Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Tool\RequestFactory.php(44): GuzzleHttp\Psr7\Request->__construct('POST', Object(GuzzleHttp\Psr7\Uri), Array, Array, '1.1')
+#2 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Tool\RequestFactory.php(84): League\OAuth2\Client\Tool\RequestFactory->getRequest('POST', 'https://api.zoo...', Array, Array, '1.1')
+#3 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(595): League\OAuth2\Client\Tool\RequestFactory->getRequestWithOptions('POST', 'https://api.zoo...', Array)
+#4 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(573): League\OAuth2\Client\Provider\AbstractProvider->createRequest('POST', 'https://api.zoo...', Object(League\OAuth2\Client\Token\AccessToken), Array)
+#5 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(156): League\OAuth2\Client\Provider\AbstractProvider->getAuthenticatedRequest('POST', 'https://api.zoo...', Object(League\OAuth2\Client\Token\AccessToken), Array)
+#6 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(83): Daycry\Zoom\Zoom->request('POST', 'meetings/936330...', Array)
+#7 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#8 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#9 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-04-15 07:20:14 --> invalid_request
+#0 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(629): League\OAuth2\Client\Provider\GenericProvider->checkResponse(Object(GuzzleHttp\Psr7\Response), Array)
+#1 C:\xampp\htdocs\protectyourdata\vendor\league\oauth2-client\src\Provider\AbstractProvider.php(537): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+#2 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(125): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#3 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(44): Daycry\Zoom\Zoom->refreshAccessToken()
+#4 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(66): App\Controllers\Zoom->refresh()
+#5 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetings()
+#6 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#7 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-15 08:23:38 --> The token has expired.
+#0 C:\xampp\htdocs\vendors\daycry\zoom\src\Zoom.php(152): Daycry\Zoom\Exceptions\ZoomException::forTokenExpired()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(112): Daycry\Zoom\Zoom->request('GET', 'users/jmano@med...')
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetingsForEnable()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-15 09:17:24 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\protectyourdata\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\protectyourdata\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Daycry\\Zoom\\Zoo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Daycry\\Zoom\\Zoo...')
+#3 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(11): spl_autoload_call('Daycry\\Zoom\\Zoo...')
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->authentication()
+#5 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#6 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-15 09:18:29 --> Undefined variable: response
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->refresh()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 09:19:27 --> Undefined variable: reponse
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->refresh()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 09:51:46 --> Call to a member function jsonSerialize() on array
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(39): Daycry\Zoom\Zoom->refreshAccessToken()
+#1 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(107): App\Controllers\Zoom->refresh()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetingsForEnable()
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#4 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-15 09:52:12 --> Undefined index: meetings
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 118, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetingsForEnable()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-15 09:53:08 --> Undefined index: meetings
+#0 C:\xampp\htdocs\protectyourdata\app\Controllers\Zoom.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(910): App\Controllers\Zoom->getMeetingsForEnable()
+#2 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Zoom))
+#3 C:\xampp\htdocs\protectyourdata\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\protectyourdata\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

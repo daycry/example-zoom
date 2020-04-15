@@ -1,0 +1,73 @@
+<?php
+
+namespace App\Models\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * UserSocialNetwork
+ *
+ * @ORM\Table(name="user_social_network", indexes={@ORM\Index(name="user_social_network_id", columns={"user_id"}), @ORM\Index(name="social_network_id", columns={"social_network_id"}), @ORM\Index(name="active", columns={"active"})})
+ * @ORM\Entity
+ */
+class UserSocialNetwork
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="configuration", type="text", length=65535, nullable=true)
+     */
+    private $configuration;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_created", type="datetime", nullable=false, options={"default"="CURRENT_TIMESTAMP"})
+     */
+    private $dateCreated = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_modified", type="datetime", nullable=false, options={"default"="CURRENT_TIMESTAMP"})
+     */
+    private $dateModified = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="active", type="boolean", nullable=false)
+     */
+    private $active = '0';
+
+    /**
+     * @var \App\Models\Entity\SocialNetwork
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\SocialNetwork")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="social_network_id", referencedColumnName="id")
+     * })
+     */
+    private $socialNetwork;
+
+    /**
+     * @var \App\Models\Entity\User
+     *
+     * @ORM\ManyToOne(targetEntity="App\Models\Entity\User")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="user_id", referencedColumnName="id")
+     * })
+     */
+    private $user;
+
+
+}
